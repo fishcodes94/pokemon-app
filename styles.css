@@ -73,9 +73,17 @@ span {
   width: 4.6em;
 }
 
-#suggestion {
+#suggestions{
   overflow: scroll;
+  max-height: 8em;
+  overflow-x: hidden;
+  
 }
+
+#suggestions::-webkit-scrollbar{
+display: none;
+}
+
 
 .suggestion-area {
   border: 1px solid white;
